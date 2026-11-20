@@ -1,0 +1,30 @@
+{
+  "finsemble": {
+    "apps": [
+      {
+        "appId": "Pulse Workspace",
+        "name": "Pulse Workspace",
+        "title": "Pulse | Alert workspace",
+        "type": "web",
+        "details": {"url": "http://127.0.0.1:8765/?host=finsemble&user=am23456"},
+        "hostManifests": {"Finsemble": {"window": {"defaultWidth": 1240, "defaultHeight": 900}, "component": {}}}
+      },
+      {
+        "appId": "Pulse Alert Popup",
+        "name": "Pulse Alert Popup",
+        "title": "Pulse | Alert discussion",
+        "type": "web",
+        "details": {"url": "http://127.0.0.1:8765/alert-popup.html?host=finsemble"},
+        "hostManifests": {"Finsemble": {"window": {"defaultWidth": 620, "defaultHeight": 760, "minWidth": 440, "minHeight": 520, "alwaysOnTop": true, "autoShow": true, "canGroup": false}, "component": {}}}
+      },
+      {
+        "appId": "Pulse Alert Listener",
+        "name": "Pulse Alert Listener",
+        "title": "Pulse | Alert listener",
+        "type": "web",
+        "details": {"url": "http://127.0.0.1:8765/listener.html?host=finsemble&user=am23456"},
+        "hostManifests": {"Finsemble": {"appService": true, "stage": "preuser", "waitForInitialization": false, "window": {"autoShow": false}, "component": {}}}
+      }
+    ]
+  }
+}

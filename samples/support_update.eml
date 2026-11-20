@@ -1,0 +1,16 @@
+From: Application Support <support@example.com>
+To: Operations Control <operations@example.com>
+Subject: RE: Trade validation failure
+Date: Fri, 20 Nov 2026 10:00:00 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Hi team,
+
+We identified an unavailable validation worker and restarted it.
+The trade validation health check is now passing. Please verify that new orders are accepted before resolving the alert.
+
+Regards,
+Application Support
+
+This is a fictional demonstration email.
